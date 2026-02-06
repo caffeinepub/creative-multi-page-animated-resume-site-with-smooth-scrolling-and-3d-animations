@@ -1,6 +1,23 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Untitled request",
-  "requirements": []
+  "title": "Update HTML document title to Aswin-Resume",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Change the HTML document <title> in frontend/index.html so the browser tab title displays exactly \"Aswin-Resume\".",
+      "acceptanceCriteria": [
+        "`frontend/index.html` contains `<title>Aswin-Resume</title>`.",
+        "When the app is opened in a browser, the tab title displays exactly \"Aswin-Resume\".",
+        "No other UI text (e.g., navigation/site header title) is changed as part of this update."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update the document <title> value from the current text to exactly \"Aswin-Resume\" without changing any other markup or on-page branding text."
+        }
+      ]
+    }
+  ]
 }

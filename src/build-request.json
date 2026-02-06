@@ -1,10 +1,35 @@
 {
   "kind": "build_request",
-  "title": "Untitled request",
+  "title": "Update browser tab title to Aswin-Resume",
   "priority": "normal",
-  "requirements": [],
-  "constraints": [],
-  "nonGoals": [],
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Update the browser-tab site title text to exactly \"Aswin-Resume\" by changing the HTML document <title> in frontend/index.html.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-10"
+        ],
+        "quotes": [
+          "Aswin-Resume"
+        ]
+      },
+      "acceptanceCriteria": [
+        "`frontend/index.html` contains `<title>Aswin-Resume</title>`.",
+        "When the app is opened in a browser, the tab title displays exactly \"Aswin-Resume\".",
+        "No other UI text (e.g., navigation/site header title) is changed as part of this update."
+      ]
+    }
+  ],
+  "constraints": [
+    "Use English for any user-facing text.",
+    "Do not edit files under frontend/src/components/ui or other immutablePaths listed in SYSTEM_CONTEXT."
+  ],
+  "nonGoals": [
+    "Changing the site header/navigation title or other on-page branding text.",
+    "Adding new pages, sections, or features."
+  ],
   "imageRequirements": {
     "required": [],
     "edits": []

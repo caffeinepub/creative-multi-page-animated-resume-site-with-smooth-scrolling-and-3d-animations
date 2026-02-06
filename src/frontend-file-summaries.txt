@@ -40,6 +40,6 @@
   "frontend/src/components/onboarding/modals/EditCertificatesPageContentModal.tsx": "Modal dialog for editing Certificates page title and subtitle with Save/Cancel behavior.",
   "frontend/src/components/onboarding/modals/EditContactContentModal.tsx": "Modal dialog for editing Contact page content including page title, subtitle, CTA title, and CTA description with Save/Cancel behavior.",
   "frontend/src/components/onboarding/modals/EditSiteTitleModal.tsx": "Modal dialog for editing the site/navigation title with Save/Cancel behavior.",
-  "frontend/index.html": "HTML entry point with initial document title set to \"Ash-Resume\" for the browser tab.",
+  "frontend/index.html": "HTML entry point with document title set to \"Aswin-Resume\" for the browser tab.",
   "frontend/src/components/auth/AuthContext.tsx": "Authentication context provider that manages main user identification by storing and comparing principals, determining if current user is the main user with edit permissions."
 }

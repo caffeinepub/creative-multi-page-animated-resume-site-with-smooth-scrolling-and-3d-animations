@@ -1,4 +1,23 @@
 {
   "kind": "feature_evidence_report",
-  "features": []
+  "features": [
+    {
+      "featureId": "feature-update-the-browser-tab-site-title-text-to-exactly-aswin-resume-by-changing-the-html-document-title-in-frontend-index-html",
+      "featureTitle": "Update the browser-tab site title text to exactly \"Aswin-Resume\" by changing the HTML document <title> in frontend/index.html.",
+      "files": [
+        "frontend/index.html"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
 }

@@ -1,29 +1,29 @@
 {
   "schemaVersion": "1.0.0",
   "projectStateVersion": 3,
-  "summary": "Website/app with a single main user who logs in via Internet Identity to edit all site content (text, images, homepage, about page, and general product/content sections), while all other visitors can view publicly without login.",
-  "architectural_notes": [
-    "Authentication: use Internet Identity for the single main/admin user; no email/password login",
-    "Authorization: public read-only access for visitors without login; admin-only editing"
-  ],
+  "summary": "New project",
+  "architectural_notes": [],
   "known_issues": [],
   "isFixRequest": false,
-  "existing_features": [],
+  "existing_features": [
+    {
+      "id": "feature-update-the-browser-tab-site-title-text-to-exactly-aswin-resume-by-changing-the-html-document-title-in-frontend-index-html",
+      "title": "Update the browser-tab site title text to exactly \"Aswin-Resume\" by changing the HTML document <title> in frontend/index.html.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
   "new_feature_requests": [
     {
       "id": "AR-1",
-      "summary": "Add single main-user admin login via Internet Identity with full edit access; all other visitors have public read-only access without login",
-      "reqIds": [],
-      "status": "pending"
-    },
-    {
-      "id": "AR-2",
-      "summary": "Provide editable website content sections (text, images, homepage, about page, and general 'products' sections as content-only, not e-commerce)",
+      "summary": "Change browser-tab site title to \"Aswin-Resume\"",
       "reqIds": [],
       "status": "pending"
     }
   ],
-  "projectName": "Untitled request",
+  "projectName": "Update browser tab title to Aswin-Resume",
   "clarification_mode": "instant",
   "clarification_rounds": 0
 }
